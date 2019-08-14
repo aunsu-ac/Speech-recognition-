@@ -1,0 +1,7 @@
+First, make sure you have all the requirements listed in the "Requirements" section.
+
+The easiest way to install this is using pip install SpeechRecognition.
+
+Otherwise, download the source distribution from PyPI, and extract the archive.
+
+In the folder, run python setup.py install.
