@@ -56,7 +56,7 @@ Google Cloud Speech Library for Python (for Google Cloud Speech API users)
 
 If not installed, everything in the library will still work, except calling ``recognizer_instance.recognize_google_cloud`` will raise an ``RequestError``.
 
-According to the `official installation instructions <https://cloud.google.com/speech-to-text/docs/quickstart>`__, the recommended way to install this is using `Pip <https://pip.readthedocs.org/>`__: execute ``pip install google-cloud-speech`` (replace ``pip`` with ``pip3`` if using Python 3).
+
 
 
 
