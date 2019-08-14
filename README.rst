@@ -7,6 +7,13 @@ To use all of the functionality of the library, you should have:
 * **PyAudio** 0.2.11+ (required only if you need to use microphone input, ``Microphone``)
 * **PocketSphinx** (required only if you need to use the Sphinx recognizer, ``recognizer_instance.recognize_sphinx``)
 * **Google API Client Library for Python** (required only if you need to use the Google Cloud Speech API, ``recognizer_instance.recognize_google_cloud``)   
+Installing
+----------
+
+First, make sure you have all the requirements listed in the "Requirements" section. 
+
+The easiest way to install this is using ``pip install SpeechRecognition``. 
+
 
 **Quickstart:** ``pip install SpeechRecognition``. See the "Installing" section for more details.
 
