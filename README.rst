@@ -18,7 +18,9 @@ The installation instructions on the PyAudio website are quite good - for conven
 1. On Windows, install PyAudio using Pip: execute pip install pyaudio in a terminal.
 2. On OS X, install PortAudio using Homebrew: brew install portaudio. Then, install PyAudio using Pip: pip install pyaudio.
 3.PyAudio wheel packages[https://pypi.org/project/wheel/] for common 64-bit Python versions on Windows and Linux are included for convenience, under the third-party/ directory in the repository root. To install, simply run pip install wheel followed by pip install ./third-party/WHEEL_FILENAME (replace pip with pip3 if using Python 3) in the repository root directory.
-###Google Cloud Speech Library for Python (for Google Cloud Speech API users):
+
+
+##Google Cloud Speech Library for Python (for Google Cloud Speech API users)##:
 Google Cloud Speech library for Python is required if and only if you want to use the Google Cloud Speech API (recognizer_instance.recognize_google_cloud).
 
 If not installed, everything in the library will still work, except calling recognizer_instance.recognize_google_cloud will raise an RequestError.
